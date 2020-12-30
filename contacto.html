@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<html lang="es">
+	<head>
+		<title>Contactate con nosotros!</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+	<body>
+		<h1 class="titulo">Contacto</h1>
+		<h2 class="titulo">Dejanos tus Datos</h2>
+		<form class="ContenidoGeneral">
+			<fieldset>
+				<legend>Completa este formulario y nos pondremos en contacto enseguida!</legend>
+
+			<label for="Nombre">Nombre</label>
+			<input type="text" name="Nombre" placeholder="Nombre">
+			<br>
+			<br>
+			<label for="Apellido">Apellido</label>
+			<input type="text" name="Apellido" placeholder="Apellido">
+			<br>
+			<br>
+			<label for="Teléfono">Teléfono</label>
+			<input type="number" name="Teléfono" placeholder="Teléfono">
+			<br>
+			<br>
+			<label for="Mail">Mail</label>
+			<input type="Mail" name="Mail" placeholder="Mail">
+			<br>
+			<br>
+			<div>Tipo de cliente</div>
+			<select name= "Tipo de cliente">
+					<option value= "Mayorista">Mayorista</option>
+					<option value= "Minorista">Minorista</option>
+					<option value= "Consumidor Final">Consumidor Final</option>
+				</select>  
+			<br>
+			<br>
+			<label> Comentarios:</label>
+				<textarea name="comentarios" id="formComentarios" cols="80" rows="8" maxlength="250" placeholder="Dejenos sus comentarios..."></textarea>
+			<br>
+			<br>
+			<input type="reset" value="Limpiar Formulario"/>
+            <input type="submit" value="Enviar"/>
+			
+			</fieldset>
+		</form>
+
+		<a href= index.html>Home</a>
+	</body>
+	</html>
+

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* Títulos*/
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  position: center;
+  border: solid 2px #dbf6e9;
+  margin: 10px 400px 10px 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.Subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d0d5d8;
+  width: 600px;
+  height: 50px;
+  margin: 10px 200px 10px 330px;
+  float: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* Listas*/
+.listado {
+  background-color: #A2857A;
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  padding: 5px 5px 5px 5px;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: stretch;
+  margin-top: 20px; }
+
+.ListaMenu {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  float: right; }
+
+.ListaMenu li {
+  display: inline; }
+
+.ListaPar {
+  background-color: #dbf6e9;
+  font-size: 24px; }
+
+.ListaImpar {
+  background-color: #ffdada;
+  font-size: 24px; }
+
+/* Contenido */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.ContenidoGeneral {
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px; }
+
+.ContenidoGeneralF {
+  font-family: 'Josefin Slab', serif;
+  background-color: #dbf6e9;
+  font-size: 18px; }
+
+.Banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 200px 0px 200px; }
+
+.grillahome {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  background-color: aliceblue; }
+
+.menuprincipal {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  margin-left: 900px; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.grillahome__producto {
+  font-family: 'Josefin Slab', serif;
+  background-color: #c0e5ee;
+  font-size: 18px;
+  text-align: center;
+  align-content: center; }
+
+.grillaproductos {
+  display: grid;
+  margin: 20px 20px 100px 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-content: center;
+  background-color: aliceblue; }
+
+.grillaproductos__rubro {
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px; }
+
+.variedades {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  align-content: center; }
+
+.carrusel {
+  margin: 0px 200px 0px 200px; }
+
+/* hovers */
+.opciones {
+  width: 50px;
+  height: 50px;
+  transition: all 1s; }
+
+.opciones:hover {
+  width: 80px;
+  height: 80px;
+  padding: 30px 0px 0px 30px;
+  background-color: #c0e5ee; }
+
+/* footer */
+.footer {
+  background-image: linear-gradient(to right, #c0e5ee, aliceblue);
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  align-items: right;
+  justify-content: flex-end; }
